@@ -13,3 +13,5 @@ app.listen(process.env.PORT || 3000, (err) => {
     
     console.log("TUDO CERTO | /\/\0/")
 })
+
+/* "start": "node server.js,"*/
