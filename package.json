@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next build && next start",
     "build": "next build",
-    "start": "next dev"
+    "start": "npm cache clean --force && delete node_modules folder && delete package-lock.json file && install npm@latest -g && npm audit fix --force && npm upgrade --force && npm install && next build && next start"
   },
   "dependencies": {
     "express": "^4.17.2",
