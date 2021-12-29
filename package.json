@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next start",
+    "dev": "next build && next start",
     "build": "next build",
-    "start": "next build && next start"
+    "start": "next dev"
   },
   "dependencies": {
     "express": "^4.17.2",
